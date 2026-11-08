@@ -22,8 +22,8 @@ module's settings in the saved recipe and reports.
   5.25 mm, 80 draws, seed 42, qref 0.05 and batch size 7: all 17 scientific
   images matched, including 8,064 finite q values. Whole-WM and native/eroded
   regional summaries matched. Laminarity used a fixed 4-mm scale; Dispersion
-  changed all eight fitting/matching settings. Their maps and regional CSVs
-  also matched at zero tolerance.
+  changed all eight fitting/matching settings. Across all three measures, all 74 scientific maps and five regional CSVs
+  matched at zero tolerance.
 - **Laminarity selectors were exercised through the installed command.** A
   minimum of 3 mm produced 3, 4, 6 and 8 mm; an unsorted explicit list produced
   the sorted 3, 4 and 8-mm sweep. Saved scale maps and configuration agreed.

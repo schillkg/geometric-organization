@@ -88,7 +88,13 @@
       "input_spacing_mm": 1.25,
       "output_spacing_mm": 1,
       "input_volumes": 70,
-      "all_three_modules": true
+      "all_three_modules": true,
+      "finite_values": {
+        "q": 5398,
+        "lamellarity": 7692,
+        "tubularity": 7692,
+        "odi": 14492
+      }
     },
     "portable_custom_reports": {
       "status": "passed",
@@ -98,7 +104,23 @@
       "laminarity": 14,
       "dispersion": 9
     },
-    "scope": "Software correspondence on synthetic controls; full default-recipe pilot retained from0.1.0. Not cohort or biological validation."
+    "scope": "Software correspondence on synthetic controls; full default-recipe pilot retained from0.1.0. Not cohort or biological validation.",
+    "default_reference_counts": {
+      "scientific_maps": 78,
+      "array_exact": 76,
+      "native_id_maps_exact_after_crosswalk": 2,
+      "all_native_rows_in_bijection": 52605,
+      "reported_fixels_per_join": 17280,
+      "mapped_mismatches": 0,
+      "whole_wm_summary_csv_byte_exact": true
+    },
+    "custom_exact_maps": {
+      "sheets": 17,
+      "laminarity": 31,
+      "dispersion": 26,
+      "total": 74,
+      "regional_csvs_byte_exact": 5
+    }
   },
   "release_date": "2026-11-08",
   "promotion": "Tested candidate bytes; no rebuild",
