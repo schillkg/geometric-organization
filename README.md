@@ -4,7 +4,7 @@
 
 This pipeline investigates three levels of the geometric organization of white matter. All are derived from diffusion MRI, using the fiber orientation distribution (FOD) within each voxel and the field of FODs across neighboring voxels.
 
-- **Dispersion** describes how wide each FOD lobe is and whether its spread is circular or elongated. Outputs include the orientation dispersion index **ODI**, dispersion anisotropy **DA_B**, angular widths, fitted axes and fiber spread **FS**.
+- **Dispersion** describes how wide each FOD lobe is and whether its spread is circular or elongated. Outputs include the orientation dispersion index **ODI**, dispersion anisotropy **DA_B**, angular widths, fitted axes and fiber spread **FS**. See [Riffert et al. (2014)](https://doi.org/10.1016/j.neuroimage.2014.06.015), [Tariq et al. (2016)](https://doi.org/10.1016/j.neuroimage.2016.01.046) and the [DIPY 1.12 implementation](https://docs.dipy.org/1.12.0/reference/dipy.reconst.html#module-dipy.reconst.bingham).
 - **Laminarity** describes whether the spatial contrast around a fiber population looks more sheet-like or tube-like. Outputs include **L** (lamellarity), **T** (tubularity), their selected spatial scales and sheet geometry.
 - **Sheets** describes whether two local fiber directions fit together into a smoothly varying sheet. The main output is **q**, a local departure from sheet consistency. See [Wedeen et al. (2012)](https://doi.org/10.1126/science.1215280), [Tax et al. (2016)](https://doi.org/10.1016/j.neuroimage.2016.07.042) and [Tax et al. (2017)](https://doi.org/10.1016/j.media.2017.03.007).
 
@@ -274,6 +274,9 @@ Version 0.1.1 was checked against the original engines at default and custom set
 
 ## References
 
+- Riffert TW, Schreiber J, Anwander A, Knösche TR (2014). [Beyond fractional anisotropy: Extraction of bundle-specific structural metrics from crossing fiber models](https://doi.org/10.1016/j.neuroimage.2014.06.015). *NeuroImage*, 100, 176–191. Bingham FOD-lobe fitting and fiber spread.
+- Tariq M et al. (2016). [Bingham–NODDI: Mapping anisotropic orientation dispersion of neurites using diffusion MRI](https://doi.org/10.1016/j.neuroimage.2016.01.046). *NeuroImage*, 133, 207–223. ODI and dispersion-anisotropy definitions, Eqs. 20–21.
+- DIPY 1.12.0. [Bingham reconstruction documentation](https://docs.dipy.org/1.12.0/reference/dipy.reconst.html#module-dipy.reconst.bingham), `dipy.reconst.bingham`.
 - Wedeen VJ et al. (2012). [The Geometric Structure of the Brain Fiber Pathways](https://doi.org/10.1126/science.1215280). *Science*, 335(6076), 1628–1634.
 - Tax CMW et al. (2016). [Sheet Probability Index (SPI): Characterizing the geometrical organization of the white matter with diffusion MRI](https://doi.org/10.1016/j.neuroimage.2016.07.042). *NeuroImage*, 142, 260–279.
 - Tax CMW et al. (2017). [Quantifying the brain’s sheet structure with normalized convolution](https://doi.org/10.1016/j.media.2017.03.007). *Medical Image Analysis*, 39, 162–177.

@@ -1,0 +1,42 @@
+Figure settings
+
+The example maps and tensors were calculated together from one WU–Minn Human
+Connectome Project diffusion MRI dataset on a 1.25 mm isotropic grid.
+
+Brain maps
+
+Desktop and mobile figures use the same anatomical planes in scanner RAS:
+sagittal R = +15.0 mm; coronal A = -24.75 mm; axial S = +25.5 mm.
+RAS denotes right, anterior and superior. In the coronal and axial views,
+anatomical left appears on the left. Each panel preserves physical aspect ratio.
+
+Sheets: Sbounded for direction pair 12, displayed from 0 to 1.
+Sbounded = qref / (qref + q), with qref = 0.03 mm^-1.
+Higher values indicate more sheet-like organization.
+
+Laminarity: AFD-weighted mean lamellarity L, displayed from 0 to 1.
+The calculation uses Gaussian integration scales of 2.5, 3, 4, 6 and 8 mm.
+
+Dispersion: AFD-weighted mean orientation dispersion index (ODI), displayed
+from 0 to 0.25. Values above 0.25 use the top color. ODI ranges from 0 to 1.
+
+AFD is apparent fiber density. Voxel means include valid fiber populations.
+Sheets maps are shown within the WM mask; Laminarity and Dispersion within
+the brain mask. Brain-masked FA provides gray anatomical context (range 0–0.8).
+The images show native voxels, with nearest-neighbor rendering and no smoothing.
+PNG and WebP versions decode to identical pixels.
+
+Plane tensors
+
+The header image shows 1,840 available Sheets pair-12 tensors in a three-slice
+coronal slab, 3.75 mm thick. The central plane is A = -22.25 mm. The displayed
+region spans R = 0–44 mm and S = 5–47 mm. The anatomical locator outlines it.
+
+Each disk lies in its measured plane. Disk radius is proportional to Sbounded.
+Color represents the absolute components of the plane normal in scanner RAS:
+red = left–right, green = anterior–posterior, blue = superior–inferior.
+
+The camera is tilted 20 degrees horizontally and 8 degrees vertically.
+Disks have an 8.5% visual thickness for shading; neighboring slices use 0.34
+opacity. The central FA image supplies anatomical context. All available
+pair-12 tensors in the region are included, with no measurement threshold.
