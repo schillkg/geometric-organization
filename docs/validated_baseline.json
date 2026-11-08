@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "image_sha256": "d9a8118a5179ff9b49071b48434bfd3d6bf31b5f1d5a3fa35419b6b2ddc30094",
+  "image_bytes": 1453150208,
+  "application_python_sources": {
+    "main.py": "69cc5dce921df72278a6b59f2b84393b3061a18e812d92f4f4feefbda43303b0",
+    "native_modules.py": "269a6b881c15d74a1ef19b57502206b5da7845aac19c021f2d8a580e80e87c26",
+    "publish.py": "829d71cc3d4b2dfe09ca62cbbbbb1625aca7bf0994dc47a10ae69f339e6ee75c",
+    "qa.py": "b58bf147b5b3a57f08459c3ace2253b2f84eb0295db9f1914f38a94df3e828e3",
+    "shared.py": "1359dba1cfd9137d28d9028e383b21140dfc85c6554e3020cc6243036a684976",
+    "sheets_module.py": "34a5f7721965239f94cf750e1a12d2b853f64a4bf3288b2f1773ee8e2459fbe2"
+  },
+  "validation": {
+    "full_subject": "One full diffusion/FreeSurfer research pilot; subject data are not distributed",
+    "grid_mm": 1.25,
+    "measurement_maps_and_five_csvs": "exactly equal to frozen independent engines",
+    "native_ids": "extraction-scoped integer addresses; complete native-lobe and reported-ID bijections verified",
+    "full_qa_pages": 34,
+    "compact_bytes": 380115532,
+    "compared_images": 78,
+    "array_exact_images": 76,
+    "native_id_images_with_exact_crosswalks": 2,
+    "regional_csvs_byte_exact": 5
+  }
+}

@@ -1,0 +1,6 @@
+build/
+*.sif
+*.sif.partial
+*.tar.gz
+*.log
+__pycache__/

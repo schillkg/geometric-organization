@@ -1,0 +1,110 @@
+{
+  "version": "0.1.1",
+  "status": "validated",
+  "image": {
+    "filename": "geometric-organization-0.1.1.sif",
+    "sha256": "54c3ac804b6c17e9bef3a98b50721f973b4fcb0aa9c79a4b5ad74469d8c620f0",
+    "bytes": 1453154304,
+    "architecture": "linux/amd64"
+  },
+  "runtime_sha256": "b254a7bd7b5f00a466eefb214a3de69eaa502841245e778592764d4f86de6df1",
+  "source_manifest_sha256": "cdd2b6a320303a41f837fed4980e47dc086f42fc6b1fbde27e43058423629b91",
+  "application_files": {
+    "README.md": {
+      "sha256": "e74833bdf6a68b295a006c9c5a974a70f4be11477b36bcb39597fed287eca7ee",
+      "bytes": 16467
+    },
+    "main.py": {
+      "sha256": "f3bc78a5f980be6871f3742b891335d276dedcba7304ccb1eb4e8906fba8020a",
+      "bytes": 28487
+    },
+    "native_modules.py": {
+      "sha256": "e833e205050825fdece128c3ab834d49261950b30939693abe888ae1015ae187",
+      "bytes": 23451
+    },
+    "publish.py": {
+      "sha256": "4527e51c86056a3eeb0e786128cb7a7f18193a5740623390aaab0c757eacd331",
+      "bytes": 9012
+    },
+    "qa.py": {
+      "sha256": "173902af35c4eee8dc8e0b2d9799b586a31805580e305c805659ae09ed6371c8",
+      "bytes": 26205
+    },
+    "shared.py": {
+      "sha256": "2aaaa835710087de0106cae2023d31beed4308a6f63cb2a7315e9ca4aec7205a",
+      "bytes": 10847
+    },
+    "sheets_module.py": {
+      "sha256": "09e3e042984923aad731a2e438ec4b861a884cdbfc6916eb43a65b2189f1cac8",
+      "bytes": 23972
+    }
+  },
+  "reference_version": "0.1.0",
+  "reference_image_sha256": "d9a8118a5179ff9b49071b48434bfd3d6bf31b5f1d5a3fa35419b6b2ddc30094",
+  "runtime_sources": {
+    "dispersion_1_0_0_image": "6339823e3b006ca6463ca84ae836210a90552c6d9d60f6dffcbe079b34de7320",
+    "sheets_q1_0_image": "ff9d1f50119a1080d21044fb9131059e6df141c6d54ef0c85590846c680095e7"
+  },
+  "validation": {
+    "unit_tests": 69,
+    "unit_environment": "installed 0.1.1 container",
+    "unit_status": "passed",
+    "default_reference_comparison": "exact scientific parity; independent native IDs reconciled by complete lobe and reported-ID crosswalks",
+    "custom_sheets": {
+      "status": "passed",
+      "maps_exact": 17,
+      "finite_q_values": 8064,
+      "settings": {
+        "radius_mm": 5.25,
+        "draws": 80,
+        "seed": 42,
+        "qref": 0.05,
+        "sample_batch_size": 7
+      }
+    },
+    "custom_laminarity": {
+      "status": "passed",
+      "fixed_scale_mm": 4,
+      "minimum_scale_mm": 3,
+      "explicit_scale_list_mm": [
+        8,
+        3,
+        4
+      ]
+    },
+    "custom_dispersion": {
+      "status": "passed",
+      "fit_angle": 25,
+      "min_separation": 40,
+      "peak_threshold": 0.2,
+      "max_lobes": 4,
+      "directions": 724,
+      "match_angle": 15,
+      "match_margin": 7,
+      "axis_gap": 0.2
+    },
+    "actual_dwi_1mm_reconstruction": {
+      "status": "passed",
+      "input_spacing_mm": 1.25,
+      "output_spacing_mm": 1,
+      "input_volumes": 70,
+      "all_three_modules": true
+    },
+    "portable_custom_reports": {
+      "status": "passed",
+      "reviewed_pages": 33,
+      "overview": 2,
+      "sheets": 8,
+      "laminarity": 14,
+      "dispersion": 9
+    },
+    "scope": "Software correspondence on synthetic controls; full default-recipe pilot retained from0.1.0. Not cohort or biological validation."
+  },
+  "release_date": "2026-11-08",
+  "promotion": "Tested candidate bytes; no rebuild",
+  "third_party_materials": {
+    "filename": "geometric-organization-0.1.0-third-party-materials.tar.gz",
+    "bytes": 11581376,
+    "sha256": "f0b9f451a95460fe2637cd3b4318d656c8357502cffb7a46ba0a56579750b471"
+  }
+}

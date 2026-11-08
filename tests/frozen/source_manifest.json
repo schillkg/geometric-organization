@@ -1,0 +1,14 @@
+{
+  "prepare_dwi.py": {
+    "source": "Laminarity/container/validation/v1_2/build_verified/payload/transverse/prepare_dwi.py",
+    "sha256": "11964109ddddee12c7b07fd7f4af609a7ebe0d68bbe8623e5e0e70c1144e4d2e",
+    "bytes": 10071,
+    "purpose": "Read-only frozen helper for portable contract tests; never imported by production integration"
+  },
+  "atlas_registration.py": {
+    "source": "Laminarity/dispersion/container/build_1.0.0_verified/payload/pipeline/atlas_registration.py",
+    "sha256": "ed17d37037f5b36241874815d409cbd1de7963466b774ca4502ef526757061ea",
+    "bytes": 6220,
+    "purpose": "Read-only frozen helper for portable contract tests; never imported by production integration"
+  }
+}

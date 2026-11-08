@@ -1,0 +1,21 @@
+# Generated or subject-specific material; source/tests/build recipes remain tracked.
+/build/
+/data/
+/results/
+/work/
+/scratch/
+/images/
+/validation/
+/tests/data/
+/tests/data_crossing/
+/container/build/
+*.tar.gz
+*.sif
+*.nii
+*.nii.gz
+*.mif
+*.mgz
+*.npz
+*.npy
+__pycache__/
+.DS_Store
