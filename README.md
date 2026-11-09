@@ -5,7 +5,7 @@
 This pipeline investigates three levels of the geometric organization of white matter. All are derived from diffusion MRI, using the fiber orientation distribution (FOD) within each voxel and the field of FODs across neighboring voxels.
 
 - **Dispersion** describes how wide each FOD lobe is and whether its spread is circular or elongated. Outputs include the orientation dispersion index **ODI**, dispersion anisotropy **DA_B**, angular widths, fitted axes and fiber spread **FS**. See [Riffert et al. (2014)](https://doi.org/10.1016/j.neuroimage.2014.06.015), [Tariq et al. (2016)](https://doi.org/10.1016/j.neuroimage.2016.01.046) and the [DIPY 1.12 implementation](https://docs.dipy.org/1.12.0/reference/dipy.reconst.html#module-dipy.reconst.bingham).
-- **Laminarity** describes whether the spatial contrast around a fiber population looks more sheet-like or tube-like. Outputs include **L** (lamellarity), **T** (tubularity), their selected spatial scales and sheet geometry.
+- **Laminarity** describes the spatial shape of a fiber population across neighboring voxels, measuring how sheet-like or tube-like that pattern is. Outputs include **L** (lamellarity), **T** (tubularity), their selected spatial scales and sheet geometry.
 - **Sheets** describes whether two local fiber directions fit together into a smoothly varying sheet. The main output is **q**, a local departure from sheet consistency. See [Wedeen et al. (2012)](https://doi.org/10.1126/science.1215280), [Tax et al. (2016)](https://doi.org/10.1016/j.neuroimage.2016.07.042) and [Tax et al. (2017)](https://doi.org/10.1016/j.media.2017.03.007).
 
 All three use the same FOD, analysis grid and atlas registration.
